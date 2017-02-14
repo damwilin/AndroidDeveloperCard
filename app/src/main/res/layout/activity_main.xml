@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/scrollView"
+    tools:context="com.example.damian.androidcard.MainActivity">
+
+    <RelativeLayout style="@style/relativeLayout">
+
+
+        <TextView
+            android:id="@+id/headline"
+            style="@style/textHeadline"
+            android:text="@string/headline_text" />
+
+        <ImageView
+            android:id="@+id/balloons"
+            style="@style/backgroundImage"
+            android:layout_below="@id/headline"
+            android:src="@drawable/balloons_background" />
+
+
+        <TextView
+            android:id="@+id/textWish1"
+            style="@style/textInside2"
+            android:text="@string/wish_1" />
+
+        <TextView
+            android:id="@+id/textWish2"
+            style="@style/textInside1"
+            android:layout_below="@id/textWish1"
+            android:text="@string/wish_2" />
+
+        <TextView
+            android:id="@+id/textWish3"
+            style="@style/textInside1"
+            android:layout_below="@id/textWish2"
+            android:text="@string/wish_3" />
+
+        <TextView
+            android:id="@+id/textEnd"
+            style="@style/textBig"
+            android:layout_below="@id/balloons"
+            android:text="@string/end" />
+
+
+    </RelativeLayout>
+</ScrollView>

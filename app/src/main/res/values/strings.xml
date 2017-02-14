@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidCard</string>
+    <string name="headline_text">Future Android Developers</string>
+    <string name="wish_1">I wish you great ideas...</string>
+    <string name="wish_2">...clean code...</string>
+    <string name="wish_3">...and a lot of coffee.</string>
+    <string name="end">Be a great Android Developer!</string>
+</resources>

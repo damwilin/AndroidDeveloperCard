@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="scrollView">
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarSize">@dimen/scrollbar</item>
+        <item name="android:hideOnContentScroll">false</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+    </style>
+
+    <style name="relativeLayout">
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textInside">
+        <item name="android:textSize">@dimen/font_regular</item>
+        <item name="android:layout_width">@dimen/inside_text_box</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:layout_marginRight">@dimen/inside_text_marginRight</item>
+    </style>
+
+    <style name="textInside1" parent="@style/textInside">
+        <item name="android:layout_marginTop">@dimen/inside_text_marginTop1</item>
+    </style>
+
+    <style name="textInside2" parent="@style/textInside">
+        <item name="android:layout_marginTop">@dimen/inside_text_marginTop2</item>
+    </style>
+
+    <style name="textBig">
+        <item name="android:textSize">@dimen/font_headline</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorTextBackground</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="textHeadline" parent="textBig">
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="backgroundImage">
+        <item name="android:layout_width">@dimen/background_image_width</item>
+        <item name="android:layout_height">@dimen/background_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentLeft">true</item>
+
+    </style>
+
+</resources>
